@@ -30,11 +30,10 @@ public class SumDigitsOfNumber {
     public static void main(String[] args) {
 
         int values = 1234;
-        
-        System.out.println(values);
         // System.out.println(values % 10);
         // System.out.println(values /= 10);
-        System.out.println(sumDigits(values));
+        int total = sumDigits(values);
+        System.out.println(total);
 
     }
 
